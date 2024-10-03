@@ -161,7 +161,7 @@
         $('#btnA').prop('disabled', false);
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
-        
+        btnCClick(null);
     }
 
     // Alarmの処理
@@ -182,7 +182,6 @@
     function btnAClick(e){
         active = true;
         startTime = new Date();
-        
     }
 
     // ButtonBがクリックされた時の処理
