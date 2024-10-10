@@ -79,5 +79,5 @@
 
     button{
         color: blue; font-family: 'Times New Roman', Times, serif;
-        border-radius: 20px;
+        border-radius: 20px; font-size: 30px;
     }
